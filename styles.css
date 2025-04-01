@@ -15,6 +15,10 @@ header {
     text-align: center;
 }
 
+h1 {
+    text-align: center;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -35,7 +39,7 @@ nav ul li a {
 
 /* Conteúdo Principal */
 main {
-    padding: 20px;
+    padding: 100px;
     text-align: center;
 }
 
@@ -90,7 +94,51 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    position: absolute;
+    position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+/* Seção de Palestrantes */
+section.palestrantes {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+section.palestrantes h2 {
+    font-size: 2.5em;
+    color: #004080;
+    margin-bottom: 40px;
+}
+
+/* Palestrantes individuais */
+.palestrante {
+    display: inline-block;
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.palestrante img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.palestrante h3 {
+    font-size: 1.5em;
+    color: #004080;
+    margin: 10px 0;
+}
+
+.palestrante p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
 }
