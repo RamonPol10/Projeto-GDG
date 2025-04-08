@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ingressos - Evento GDG</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">       
+    
 </head>
 <body>
     <header>
@@ -22,12 +23,47 @@
     </header>
     
     <main>
-        <h2>Garanta seu ingresso</h2>
-        <p>Confira as opções e adquira seu ingresso.</p>
+       
+        <div class="container">
+            <h1>Escolha seu Ingresso</h1>
+            <p>Confira as opções e adquira seu ingresso.</p>
+        
+            <div class="cards">
+              <div class="card">
+                <img src="images/INGRESSOSSS.png" alt="Ingresso PADRÃO">
+                <h2>Ingresso Padrão</h2>
+                <p>Entrada básica para o evento.</p>
+                <button onclick="selecionarIngresso('Padrão')">Selecionar</button>
+              </div>
+        
+              <div class="card">
+                <img src="images/INGRESSOSSS.png" alt="Ingresso VIP">
+                <h2>Ingresso VIP</h2>
+                <p>Acesso à área VIP e brindes.</p>
+                <button onclick="selecionarIngresso('VIP')">Selecionar</button>
+              </div>
+        
+              <div class="card">
+                <img src="images/INGRESSOSSS.png" alt="Ingresso PREMIUM">
+                <h2>Ingresso Premium</h2>
+                <p>Tudo do VIP + Meet & Greet.</p>
+                <button onclick="selecionarIngresso('Premium')">Selecionar</button>
+              </div>
+            </div>
+          </div>
+        
+          <script>
+            function selecionarIngresso(tipo) {
+              alert(`Você selecionou o ingresso: ${tipo}`);
+            }
+          </script>
+
+
     </main>
     
     <footer>
         <p>&copy; 2025 Evento GDG - Todos os direitos reservados.</p>
     </footer>
+   
 </body>
 </html>
