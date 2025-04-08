@@ -11,9 +11,6 @@ body {
 header {
     background-color: #004080;
     background-image: url(images/22060169-programacao-codigo-abstrato-tecnologia-fundo-do-programas-desenvolvedor-e-computador-roteir.jpg);
-    background-size: cover;
-    background-position: center;
-    image-rendering: auto;
     color: white;
     font-size: 30px;
     padding: 10px;
@@ -82,14 +79,14 @@ form label {
 }
 
 form input, form textarea {
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 15px;
-        border: 2px solid #004080;
-        border-radius: 6px;
-        box-sizing: border-box;
-    }
-    
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #004080;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
 
 form button {
     width: 100%;
